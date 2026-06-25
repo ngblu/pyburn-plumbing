@@ -5,7 +5,7 @@ import { DollarSign, Clock, Sparkles, Heart } from "lucide-react";
 
 const reasons = [
   { icon: DollarSign, title: "Upfront Pricing", desc: "No surprises, no hidden fees. You'll know the cost before we start any work." },
-  { icon: Clock, title: "On-Time Guarantee", desc: "We show up when we say we will — or the service call is on us." },
+  { icon: Clock, title: "On-Time Guarantee", desc: "We show up when we say we will , or the service call is on us." },
   { icon: Sparkles, title: "Clean Workspace", desc: "Boot covers, drop cloths, and a full cleanup. We treat your home like ours." },
   { icon: Heart, title: "Local Family Business", desc: "Not a franchise. Scott and his team live here, work here, and care about getting it right." },
 ];

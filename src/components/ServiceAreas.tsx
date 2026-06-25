@@ -14,7 +14,7 @@ export function ServiceAreas() {
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
           <p className="text-primary-light font-semibold text-sm uppercase tracking-wider mb-3">Service Areas</p>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-gray-900 mb-4">Proudly Serving Upper Cumberland</h2>
-          <p className="text-gray-500 mb-10 max-w-2xl mx-auto">From Cookeville to Crossville — we come to you. Same-day service throughout the region.</p>
+          <p className="text-gray-500 mb-10 max-w-2xl mx-auto">From Cookeville to Crossville , we come to you. Same-day service throughout the region.</p>
         </motion.div>
         <div className="flex flex-wrap justify-center gap-4">
           {areas.map((area, i) => (

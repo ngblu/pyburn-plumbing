@@ -11,7 +11,7 @@ export function About() {
           <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
             <p className="text-primary-light font-semibold text-sm uppercase tracking-wider mb-3">About Us</p>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-gray-900 mb-6">Your Neighbors Since 1996</h2>
-            <p className="text-gray-600 leading-relaxed mb-4">Owner Scott Pyburn is a third-generation plumber — continuing the work his father began — built on straight talk, clean workmanship, and neighbors-first service.</p>
+            <p className="text-gray-600 leading-relaxed mb-4">Owner Scott Pyburn is a third-generation plumber , continuing the work his father began , built on straight talk, clean workmanship, and neighbors-first service.</p>
             <p className="text-gray-600 leading-relaxed mb-4">We're licensed and insured, and we stand behind our work with clear warranties. You'll always get options, upfront pricing, and a clean workspace when we're done.</p>
             <p className="text-gray-600 leading-relaxed mb-6">From everyday leaks to full septic system installs, Pyburn Plumbing delivers clean, professional work you can trust throughout the Upper Cumberland.</p>
             <Link href="/about" className="inline-flex items-center gap-2 text-primary-light font-semibold hover:underline">Read our full story →</Link>

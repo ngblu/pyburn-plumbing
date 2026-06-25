@@ -26,7 +26,7 @@ export function Reviews() {
             <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="bg-gray-50 rounded-2xl p-6 border border-gray-100 hover:shadow-md transition-shadow">
               <div className="flex gap-1 text-yellow-400 mb-4">{[...Array(5)].map((_, j) => <Star key={j} className="w-4 h-4 fill-current" />)}</div>
               <p className="text-gray-600 mb-6 leading-relaxed">{r.text}</p>
-              <p className="font-semibold text-sm text-gray-900">— {r.author}</p>
+              <p className="font-semibold text-sm text-gray-900">, {r.author}</p>
             </motion.div>
           ))}
         </div>

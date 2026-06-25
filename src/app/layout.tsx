@@ -21,7 +21,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Pyburn Plumbing & Septic Services | Cookeville, TN",
   description:
-    "Pyburn Plumbing & Septic Services — Cookeville, TN's trusted 3rd-generation plumber since 1996. 24/7 emergency plumbing, septic repair, drain cleaning, water heater service. Serving the Upper Cumberland. Call (931) 261-2898.",
+    "Pyburn Plumbing & Septic Services , Cookeville, TN's trusted 3rd-generation plumber since 1996. 24/7 emergency plumbing, septic repair, drain cleaning, water heater service. Serving the Upper Cumberland. Call (931) 261-2898.",
   keywords: [
     "plumber Cookeville TN",
     "plumbing services Cookeville",

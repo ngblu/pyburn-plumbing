@@ -24,12 +24,12 @@ export function ContactForm() {
           <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
             <p className="text-primary-light font-semibold text-sm uppercase tracking-wider mb-3">Get In Touch</p>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-gray-900 mb-4">Ready for Reliable Plumbing?</h2>
-            <p className="text-gray-500 mb-8 leading-relaxed">Call us or fill out the form for a free estimate. We respond within 2 hours — guaranteed.</p>
+            <p className="text-gray-500 mb-8 leading-relaxed">Call us or fill out the form for a free estimate. We respond within 2 hours , guaranteed.</p>
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-gray-700"><Phone className="w-5 h-5 text-primary-light" /><span className="font-semibold">(931) 261-2898</span></div>
               <div className="flex items-center gap-3 text-gray-700"><Phone className="w-5 h-5 text-primary-light" /><span>(931) 537-2898</span></div>
               <div className="flex items-center gap-3 text-gray-700"><Mail className="w-5 h-5 text-primary-light" /><span>pyburnplumbing@gmail.com</span></div>
-              <div className="flex items-center gap-3 text-gray-700"><MapPin className="w-5 h-5 text-primary-light" /><span>Cookeville, TN — Upper Cumberland</span></div>
+              <div className="flex items-center gap-3 text-gray-700"><MapPin className="w-5 h-5 text-primary-light" /><span>Cookeville, TN , Upper Cumberland</span></div>
             </div>
           </motion.div>
           <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
