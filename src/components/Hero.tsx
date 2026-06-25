@@ -114,7 +114,7 @@ export function Hero() {
             Call Now: (931) 261-2898
           </a>
           <a
-            href="#estimate"
+            href="#contact"
             className="flex w-full items-center justify-center gap-2 rounded-full border-2 border-white/30 bg-white/10 backdrop-blur-sm px-8 py-4 text-lg font-bold text-white transition-all hover:bg-white/20 hover:border-white/50 sm:w-auto"
           >
             Get Free Estimate
