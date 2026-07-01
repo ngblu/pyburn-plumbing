@@ -20,6 +20,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Pyburn Plumbing & Septic Services | Cookeville, TN",
+  icons: { icon: "/favicon.svg", apple: "/favicon.svg" },
   description:
     "Pyburn Plumbing & Septic Services, Cookeville, TN's trusted 3rd-generation plumber since 1996. Emergency plumbing, septic repair, drain cleaning, water heater service. Serving the Upper Cumberland. Call (931) 537-2898.",
   keywords: [
