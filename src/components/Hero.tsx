@@ -25,15 +25,6 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            {/* Mascot + tagline */}
-            <div className="flex items-center gap-3 mb-4">
-              <img
-                src="/logo-hires.webp"
-                alt="Pyburn Plumbing"
-                className="h-12 sm:h-16 w-auto"
-              />
-            </div>
-
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-navy-900">
               Cookeville&rsquo;s{" "}
               <span className="text-primary">3rd-Generation</span>{" "}
