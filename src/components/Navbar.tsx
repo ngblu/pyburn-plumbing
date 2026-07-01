@@ -96,11 +96,10 @@ export function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile Menu — CSS max-height for rock-solid mobile browser support */}
+      {/* Mobile Menu */}
       <div
-        className={`lg:hidden overflow-hidden transition-[max-height] duration-300 ease-in-out ${
-          isOpen ? "max-h-[600px]" : "max-h-0"
-        }`}
+        className="lg:hidden overflow-hidden transition-[max-height] duration-300 ease-in-out"
+        style={{ maxHeight: isOpen ? '600px' : '0' }}
       >
         <div className="bg-white border-t border-gray-100">
           <div className="flex flex-col px-4 py-4 gap-1">

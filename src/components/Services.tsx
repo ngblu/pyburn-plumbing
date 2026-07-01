@@ -50,11 +50,10 @@ export function Services() {
                   ))}
                 </ul>
 
-                {/* Expandable detail — CSS max-height for reliable mobile support */}
+                {/* Expandable detail */}
                 <div
-                  className={`overflow-hidden transition-[max-height] duration-300 ease-in-out ${
-                    isOpen ? "max-h-[500px]" : "max-h-0"
-                  }`}
+                  className="overflow-hidden transition-[max-height] duration-300 ease-in-out"
+                  style={{ maxHeight: isOpen ? '500px' : '0' }}
                 >
                   <div className="pt-4 border-t border-gray-200">
                     <p className="text-sm text-gray-600 leading-relaxed mb-4">{svc.detail}</p>
