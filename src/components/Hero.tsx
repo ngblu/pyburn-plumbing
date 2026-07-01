@@ -78,18 +78,16 @@ export function Hero() {
               </a>
             </div>
 
-            {/* Google link */}
-            <p className="mt-4 text-sm text-gray-400">
-              Or find us on{" "}
-              <a
-                href="https://maps.app.goo.gl/bzVLPhz7Lw3Wwi9E8"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary underline underline-offset-2 hover:text-primary-dark"
-              >
-                Google Maps
-              </a>
-            </p>
+            {/* Google Maps link */}
+            <a
+              href="https://maps.app.goo.gl/bzVLPhz7Lw3Wwi9E8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mt-6 text-sm font-medium text-gray-500 hover:text-primary transition-colors"
+            >
+              <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="10" r="3"/><path d="M12 2a8 8 0 0 0-8 8c0 5.4 8 14 8 14s8-8.6 8-14a8 8 0 0 0-8-8z"/></svg>
+              Find us on Google Maps →
+            </a>
           </motion.div>
 
           {/* Right: Van photo */}

@@ -43,26 +43,28 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8 py-3">
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 shrink-0">
-          <img
-            src="/logo-300.webp"
-            alt="Pyburn Plumbing & Septic Services"
-            className="h-10 w-auto sm:h-12 md:h-14"
-          />
-        </Link>
+        {/* Logo + Desktop Nav grouped together */}
+        <div className="flex items-center gap-8 lg:gap-12">
+          <Link href="/" className="flex items-center gap-3 shrink-0">
+            <img
+              src="/logo-300.webp"
+              alt="Pyburn Plumbing & Septic Services"
+              className="h-10 w-auto sm:h-12 md:h-14"
+            />
+          </Link>
 
-        {/* Desktop Nav */}
-        <div className="hidden lg:flex lg:items-center lg:gap-8">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="relative text-sm font-semibold text-navy-900 transition-colors hover:text-primary uppercase tracking-wider"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {/* Desktop Nav */}
+          <div className="hidden lg:flex lg:items-center lg:gap-8">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="relative text-sm font-semibold text-navy-900 transition-colors hover:text-primary uppercase tracking-wider"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
         </div>
 
         {/* Desktop Phone CTA */}
