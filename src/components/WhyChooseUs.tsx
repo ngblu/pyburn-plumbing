@@ -12,15 +12,15 @@ const reasons = [
 
 export function WhyChooseUs() {
   return (
-    <section className="py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-center mb-16">
+    <section className="py-16 sm:py-20 lg:py-24 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div initial={{ opacity: 1 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-center mb-16">
           <p className="text-primary-light font-semibold text-sm uppercase tracking-wider mb-3">The Pyburn Difference</p>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-gray-900">Why Choose Us</h2>
         </motion.div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {reasons.map((r, i) => (
-            <motion.div key={r.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="bg-white rounded-2xl p-6 border border-gray-100 text-center hover:shadow-lg hover:border-primary-light/20 transition-all group">
+            <motion.div key={r.title} initial={{ opacity: 1, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="bg-white rounded-2xl p-6 border border-gray-100 text-center hover:shadow-lg hover:border-primary-light/20 transition-all group">
               <r.icon className="w-10 h-10 text-primary-light mx-auto mb-4 group-hover:scale-110 transition-transform" />
               <h3 className="font-bold text-lg mb-2 text-gray-900">{r.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed">{r.desc}</p>

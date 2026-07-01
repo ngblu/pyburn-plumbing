@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pyburn-plumbing.vercel.app/sitemap.xml

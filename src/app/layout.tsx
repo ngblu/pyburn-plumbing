@@ -21,7 +21,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Pyburn Plumbing & Septic Services | Cookeville, TN",
   description:
-    "Pyburn Plumbing & Septic Services, Cookeville, TN's trusted 3rd-generation plumber since 1996. 24/7 emergency plumbing, septic repair, drain cleaning, water heater service. Serving the Upper Cumberland. Call (931) 261-2898.",
+    "Pyburn Plumbing & Septic Services, Cookeville, TN's trusted 3rd-generation plumber since 1996. Emergency plumbing, septic repair, drain cleaning, water heater service. Serving the Upper Cumberland. Call (901) 251-2892.",
   keywords: [
     "plumber Cookeville TN",
     "plumbing services Cookeville",
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pyburn Plumbing & Septic Services | Cookeville, TN",
     description:
-      "Cookeville's trusted 3rd-generation plumber since 1996. 24/7 emergency service. Call (931) 261-2898.",
-    url: "https://pyburnplumbing.com",
+      "Cookeville's trusted 3rd-generation plumber since 1996. Emergency service available. Call (901) 251-2892.",
+    url: "https://pyburn-plumbing.vercel.app",
     siteName: "Pyburn Plumbing & Septic Services",
     locale: "en_US",
     type: "website",
@@ -52,19 +52,21 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Plumber",
   "name": "Pyburn Plumbing & Septic Services",
-  "description": "Cookeville's trusted 3rd-generation plumber since 1996. 24/7 emergency plumbing, septic repair, drain cleaning, water heater service.",
-  "telephone": "(931) 261-2898",
+  "description": "Cookeville's trusted 3rd-generation plumber since 1996. Emergency plumbing, septic repair, drain cleaning, water heater service.",
+  "telephone": "(901) 251-2892",
   "email": "pyburnplumbing@gmail.com",
-  "url": "https://pyburnplumbing.com",
+  "url": "https://pyburn-plumbing.vercel.app",
   "areaServed": ["Cookeville", "Algood", "Baxter", "Monterey", "Sparta", "Livingston", "Crossville", "Upper Cumberland"],
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-    "opens": "00:00",
-    "closes": "23:59"
-  },
   "foundingDate": "1996",
   "priceRange": "$$",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "07:00", "closes": "17:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "07:00", "closes": "17:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "07:00", "closes": "17:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "07:00", "closes": "17:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "07:00", "closes": "17:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "07:00", "closes": "17:00" }
+  ]
 };
 
 export default function RootLayout({
