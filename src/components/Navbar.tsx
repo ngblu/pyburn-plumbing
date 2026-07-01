@@ -70,18 +70,18 @@ export function Navbar() {
         {/* Desktop Phone CTA */}
         <div className="hidden lg:flex lg:items-center lg:gap-4">
           <a
-            href="tel:+19012512892"
+            href="tel:+19315372898"
             className="flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-[13px] font-bold text-white transition-all hover:bg-primary-dark hover:scale-105 shadow-md shadow-primary/25"
           >
             <Phone className="h-4 w-4" />
-            (901) 251-2892
+            (931) 537-2898
           </a>
         </div>
 
         {/* Mobile Buttons */}
         <div className="flex items-center gap-3 lg:hidden">
           <a
-            href="tel:+19012512892"
+            href="tel:+19315372898"
             className="flex items-center justify-center rounded-full bg-primary p-3 text-white hover:bg-primary-dark transition-colors min-w-[44px] min-h-[44px]"
             aria-label="Call Now"
           >
@@ -114,12 +114,12 @@ export function Navbar() {
             ))}
             <div className="mt-3">
               <a
-                href="tel:+19012512892"
+                href="tel:+19315372898"
                 onClick={() => setIsOpen(false)}
                 className="flex items-center justify-center gap-2 rounded-full bg-red-600 px-6 py-3.5 text-base font-bold text-white hover:bg-red-700 transition-colors shadow-lg shadow-red-600/25"
               >
                 <Phone className="h-5 w-5" />
-                Call Now: (901) 251-2892
+                Call Now: (931) 537-2898
               </a>
             </div>
           </div>

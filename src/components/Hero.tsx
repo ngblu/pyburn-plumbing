@@ -64,11 +64,11 @@ export function Hero() {
             {/* CTA Buttons */}
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
-                href="tel:+19012512892"
+                href="tel:+19315372898"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-8 py-4 text-lg font-bold text-white transition-all hover:bg-primary-dark hover:scale-105 shadow-lg shadow-red-600/25"
               >
                 <Phone className="h-5 w-5" />
-                Call (901) 251-2892
+                Call (931) 537-2898
               </a>
               <a
                 href="#contact"

@@ -10,11 +10,11 @@ export function EmergencyBanner() {
         <span className="hidden sm:inline">🔥</span>
         <span>🚨 Emergency Service · Call</span>
         <a
-          href="tel:+19012512892"
+          href="tel:+19315372898"
           className="inline-flex items-center gap-1.5 font-extrabold underline decoration-white/30 underline-offset-4 hover:decoration-white transition-all"
         >
           <Phone className="h-4 w-4" />
-          (901) 251-2892
+          (931) 537-2898
         </a>
       </div>
     </div>

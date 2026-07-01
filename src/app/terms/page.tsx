@@ -31,7 +31,7 @@ export default function TermsPage() {
         <p>Pyburn Plumbing & Septic Services is fully licensed and insured. We carry general liability and workers' compensation insurance as required by Tennessee law.</p>
 
         <h2 className="text-xl font-bold text-navy-900 mt-8">6. Contact</h2>
-        <p>For questions about these terms, call (901) 251-2892 or email pyburnplumbing@gmail.com.</p>
+        <p>For questions about these terms, call (931) 537-2898 or email pyburnplumbing@gmail.com.</p>
       </div>
     </main>
   );

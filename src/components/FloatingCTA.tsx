@@ -19,7 +19,7 @@ export function FloatingCTA() {
     >
       <div className="flex gap-3 max-w-lg mx-auto px-3 pt-3">
         <a
-          href="tel:+19012512892"
+          href="tel:+19315372898"
           className="flex-1 flex items-center justify-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold py-3.5 rounded-xl text-sm transition-colors"
         >
           <Phone className="w-4 h-4" />

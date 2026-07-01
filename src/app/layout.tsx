@@ -21,7 +21,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Pyburn Plumbing & Septic Services | Cookeville, TN",
   description:
-    "Pyburn Plumbing & Septic Services, Cookeville, TN's trusted 3rd-generation plumber since 1996. Emergency plumbing, septic repair, drain cleaning, water heater service. Serving the Upper Cumberland. Call (901) 251-2892.",
+    "Pyburn Plumbing & Septic Services, Cookeville, TN's trusted 3rd-generation plumber since 1996. Emergency plumbing, septic repair, drain cleaning, water heater service. Serving the Upper Cumberland. Call (931) 537-2898.",
   keywords: [
     "plumber Cookeville TN",
     "plumbing services Cookeville",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pyburn Plumbing & Septic Services | Cookeville, TN",
     description:
-      "Cookeville's trusted 3rd-generation plumber since 1996. Emergency service available. Call (901) 251-2892.",
+      "Cookeville's trusted 3rd-generation plumber since 1996. Emergency service available. Call (931) 537-2898.",
     url: "https://pyburn-plumbing.vercel.app",
     siteName: "Pyburn Plumbing & Septic Services",
     locale: "en_US",
@@ -53,7 +53,7 @@ const jsonLd = {
   "@type": "Plumber",
   "name": "Pyburn Plumbing & Septic Services",
   "description": "Cookeville's trusted 3rd-generation plumber since 1996. Emergency plumbing, septic repair, drain cleaning, water heater service.",
-  "telephone": "(901) 251-2892",
+  "telephone": "(931) 537-2898",
   "email": "pyburnplumbing@gmail.com",
   "url": "https://pyburn-plumbing.vercel.app",
   "areaServed": ["Cookeville", "Algood", "Baxter", "Monterey", "Sparta", "Livingston", "Crossville", "Upper Cumberland"],

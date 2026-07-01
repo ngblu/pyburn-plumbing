@@ -28,10 +28,10 @@ export default function PrivacyPage() {
         <p>This website does not use tracking cookies or third-party analytics. Any essential cookies are used only for site functionality.</p>
 
         <h2 className="text-xl font-bold text-navy-900 mt-8">5. Your Rights</h2>
-        <p>You may request that we delete your contact information at any time by calling (901) 251-2892 or emailing pyburnplumbing@gmail.com.</p>
+        <p>You may request that we delete your contact information at any time by calling (931) 537-2898 or emailing pyburnplumbing@gmail.com.</p>
 
         <h2 className="text-xl font-bold text-navy-900 mt-8">6. Contact</h2>
-        <p>For questions about this privacy policy, call (901) 251-2892 or email pyburnplumbing@gmail.com.</p>
+        <p>For questions about this privacy policy, call (931) 537-2898 or email pyburnplumbing@gmail.com.</p>
       </div>
     </main>
   );
