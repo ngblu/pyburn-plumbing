@@ -51,10 +51,7 @@ export function Services() {
                 </ul>
 
                 {/* Expandable detail */}
-                <div
-                  className="overflow-hidden transition-[max-height] duration-300 ease-in-out"
-                  style={{ maxHeight: isOpen ? '500px' : '0' }}
-                >
+                {isOpen && (
                   <div className="pt-4 border-t border-gray-200">
                     <p className="text-sm text-gray-600 leading-relaxed mb-4">{svc.detail}</p>
                     <a
@@ -66,7 +63,7 @@ export function Services() {
                       Call for Estimate
                     </a>
                   </div>
-                </div>
+                )}
               </div>
             );
           })}

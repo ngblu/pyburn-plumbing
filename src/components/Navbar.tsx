@@ -97,11 +97,8 @@ export function Navbar() {
       </nav>
 
       {/* Mobile Menu */}
-      <div
-        className="lg:hidden overflow-hidden transition-[max-height] duration-300 ease-in-out"
-        style={{ maxHeight: isOpen ? '600px' : '0' }}
-      >
-        <div className="bg-white border-t border-gray-100">
+      {isOpen && (
+        <div className="lg:hidden bg-white border-t border-gray-100">
           <div className="flex flex-col px-4 py-4 gap-1">
             {navLinks.map((link) => (
               <Link
@@ -125,7 +122,7 @@ export function Navbar() {
             </div>
           </div>
         </div>
-      </div>
+      )}
     </header>
   );
 }
